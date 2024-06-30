@@ -49,8 +49,8 @@ Start the development server:
 npm run dev
 ```
 
-API Integration
+## API Integration
 The frontend communicates with the backend using Axios. The backend is a Flask application, which you can find [here](https://github.com/Soham-Chaudhuri/Stock-Price-Predictor-2.0-backend).
 
-Predictor Model
+## Predictor Model
 The stock price prediction is performed using a linear regression model. The model and its notebook can be found [here](https://github.com/Soham-Chaudhuri/Stock-Price-Predictor-2.0).
