@@ -1,7 +1,5 @@
 # Stock Price Predictor Frontend
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1a2b3c4d-5e6f-7890-1234-56789abcdef0/deploy-status)](https://app.netlify.com/sites/stonks-by-soham/deploys)
-
 ## Introduction
 
 This repository contains the frontend of the Stock Price Predictor application. The application predicts stock prices using a linear regression model. The frontend is built using ReactJS, Lightweight Charts, and Axios, and it interacts with a Flask backend and a machine learning model hosted in a Jupyter notebook.
