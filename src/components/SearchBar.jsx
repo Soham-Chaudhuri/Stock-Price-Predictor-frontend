@@ -72,7 +72,7 @@ const SearchBar = () => {
 
   return (
     <>
-      {!apexCharData && (
+      {!stockOption && (
         <>
           <div className="text-center pt-20 py-6">
             <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
@@ -107,6 +107,13 @@ const SearchBar = () => {
             />
           </div>
         </>
+      )}
+      {stockOption&&!apexCharData&&(
+        <div className="text-center h-screen">
+        <h1 class="mb-4 relative top-1/3 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+        Loading Data...
+      </h1>
+        </div>
       )}
       {stockOption && apexCharData && (
         <>
